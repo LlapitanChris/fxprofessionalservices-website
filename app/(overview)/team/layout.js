@@ -1,6 +1,6 @@
-import { Inter } from 'next/font/google';
-import { SplashScreen } from './_components/SplashScreen';
-import './globals.css';
+import '../../globals.css'
+import { Inter } from 'next/font/google'
+import { SplashScreen } from '@/app/_components/SplashScreen';
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -16,7 +16,7 @@ export default function RootLayout({ children }) {
           <meta name="theme-color" content="#211F53" />
       </head>
       <body className={inter.className}>
-      <SplashScreen />
+        <SplashScreen />
         {children}
       </body>
     </html>
