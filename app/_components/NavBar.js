@@ -40,7 +40,7 @@ export function Navbar({ active }) {
         {
             title: 'Products',
             hideInDesktop: false,
-            href: '/product'
+            href: '/products'
         },
         {
             title: 'Blogs',
