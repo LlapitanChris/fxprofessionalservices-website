@@ -81,7 +81,7 @@ export default function Home() {
                 Why you shoud choose us?
               </h1>
               <p className="text-xl text-center mb-16 text-white max-w-2xl mx-auto mt-4">
-                It's simple really; we see the need for specialized solutions and a need to differentiate ourselves from the crowd. In this competitive business environment, it's imperative that we offer more than just a generic solution. From initial design and prototyping to testing, programming, and integration, we can deliver customized solutions to our clients.
+                It`&apos;`s simple really; we see the need for specialized solutions and a need to differentiate ourselves from the crowd. In this competitive business environment, it`&apos;`s imperative that we offer more than just a generic solution. From initial design and prototyping to testing, programming, and integration, we can deliver customized solutions to our clients.
               </p>
 
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3  gap-3 max-w-screen-xl mx-auto">
@@ -100,7 +100,7 @@ export default function Home() {
                   <h2 className="font-bold text-[#042f2e] my-4 text-lg">We meet deadlines</h2>
                 
                   <p className="text-md text-[#042f2e]">
-                    As your business grows, you'll encounter bumps along the road that make it harder to meet your goals. This can be a problem. If your business needs its solutions to be quick and robust enough to handle a wide variety of circumstances, We can provide solutions when you need it.
+                    As your business grows, you`&apos;`ll encounter bumps along the road that make it harder to meet your goals. This can be a problem. If your business needs its solutions to be quick and robust enough to handle a wide variety of circumstances, We can provide solutions when you need it.
                   </p>
 
                 </button>
@@ -129,7 +129,7 @@ export default function Home() {
                   
                   <h2 className="font-bold text-[#042f2e] my-4 text-lg">We Listen</h2>
                     
-                    <p className="text-md text-[#042f2e]">We just don't develop and build solutions. We make sure that all concerns are heard to make sure that what we provide is an application that would be almost perfect to handle all your business needs. We don't push ideas aside, we work with it.</p>
+                    <p className="text-md text-[#042f2e]">We just don`&apos;`≈t develop and build solutions. We make sure that all concerns are heard to make sure that what we provide is an application that would be almost perfect to handle all your business needs. We don`&apos;`t push ideas aside, we work with it.</p>
                 
                 </button>
                     

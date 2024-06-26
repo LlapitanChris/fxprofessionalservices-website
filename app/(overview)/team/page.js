@@ -9,56 +9,64 @@ export default function Team() {
 			position: "Chief Executive Officer",
 			image: "/kaz.jpg",
 			slug: "kaz",
-			about: "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
-		},
+			about: "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+			linkedIn: "https://www.linkedin.com/in/kaz-mclamore-1aaab94a/"
+			},
 		{
 			name: "Jim De Jose",
 			position: "Application Developer",
 			image: "/jim.jpg",
 			slug: "jim",
-			about: "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+			about: "A certified Claris FileMaker developer, brings 2+ years of hands-on experience and crafts practical database applications. With a focus on efficiency, my freelance journey offers freedom and continuous learning opportunities.",
+			linkedIn: "https://www.linkedin.com/in/jimpauldejose/"
 		},
 		{
 			name: "Melissa Licopit",
 			position: "Application Developer",
 			image: "/mitz.jpg",
 			slug: "mitz",
-			about: "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+			about: "Fur mom to 10 dogs, perpetually learning, and a collector of Funko, Bearbrick, and Nanoblocks. Age is just a number; enthusiasm is forever!",
+			linkedIn: "https://www.linkedin.com/in/melissa-licopit-55713176/"
 		},
 		{
 			name: "Brian Jay Sio",
 			position: "Application Developer",
 			image: "/brian.jpg",
 			slug: "brian",
-			about: "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+			about: `Cats Cats Cats. Hiking, Freediving and Playing Video Games. Crazy about Coffee. 50 First Dates`,
+			linkedIn: "https://www.linkedin.com/in/brian-jay-sio-14b60427/"
 		},
 		{
 			name: "Richard Madamag",
 			position: "Application Developer",
 			image: "/richard.jpg",
 			slug: "richard",
-			about: "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+			about: "A full-time developer and a part-time musician. I also love riding motorcycles and going on adventure with my friends.",
+			linkedIn: "https://www.linkedin.com/in/richard-kim-madamag/"
 		},
 		{
 			name: "Christine Fradejas",
 			position: "Website Developer",
 			image: "/christine.jpg",
 			slug: "christine",
-			about: "Loves the Web and Internet of things. Also loves making a good cup of coffee."
+			about: "Loves the Web and Internet of things. Also loves making a good cup of coffee.",
+			linkedIn: "https://www.linkedin.com/in/chrisemantic-llapitan-2018/"
 		},
 		{
 			name: "Joy Llenos",
 			position: "Admin",
 			image: "/joy.jpeg",
 			slug: "joy",
-			about: "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+			about: "With over six years of experience in managing business engagements, overseeing project implementation, and developing customized training programs for various private companies. I also enjoy watching Korean movies and drama series.",
+			linkedIn: "https://www.linkedin.com/in/joy-llenos-b20081a3/"
 		},
 		{
 			name: "Irish Quilla",
 			position: "Project Manager",
 			image: "/irish.jpeg",
 			slug: "irish",
-			about: "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+			about: "Project manager by day, violinist by night. Let's orchestrate success together, one project at a time.",
+			linkedIn: ""
 		}
 	]
   return (
@@ -93,7 +101,7 @@ export default function Team() {
 											<span className="font-medium block text-center">{dev.position}</span>
 											<span className='bg-[#14b8a6] hover:bg-[#0f766e] rounded-[200px] w-[40px] h-[40px] p-2 block mx-auto'>
 												<Link
-													href={'https://www.linkedin.com/company/'}
+													href={`${dev.linkedIn != "" ? dev.linkedIn : 'https://www.linkedin.com/'} `}
 													target='_blank'
 													className='text-center self-center'
 												>

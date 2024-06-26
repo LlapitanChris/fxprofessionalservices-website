@@ -1,61 +1,65 @@
+"use client"
 import { Footer } from '@/app/_components/footer'
 import { Navbar } from '@/app/_components/navbar'
+import { useEffect, useState } from 'react';
+import Link from 'next/link';
+
 export default function Blogs() {
+
+	const [blogs, setBlogs] = useState(null);
+
+	useEffect(() => {
+	  const fetchData = async () => {
+		const response = await fetch('/api');
+		const result = await response.json();
+		setBlogs(result);
+	  };
+  
+	  fetchData();
+	}, []);
+  
+	console.log(blogs)
 
   return (
     <main>
         <Navbar active={'/blogs'}/>
 
-        <div className='mt-[150px] rounded-bl-[3rem] flex'>
+        <div className='mt-[150px] rounded-bl-[3rem] block sm:flex'>
 
-			<div className="space-y-20 pb-10 w-[70%] pl-10">
-				<div className="mt-[100px] mb-[100px] space-y-8 sm:mx-auto sm:max-w-xl sm:space-y-4 lg:max-w-6xl">
+			<div className="space-y-20 sm:pb-10 w-[70%] mx-auto sm:pl-10">
+				<div className="mt-[200px] sm:mt-[100px] mb-[100px] space-y-8 mx-auto sm:max-w-xl sm:space-y-4 lg:max-w-6xl">
 
-					<div className="flex flex-col-reverse lg:flex-row-reverse items-center rounded-2xl hover:bg-white/10 cursor-pointer" >
-						<div className="p-8 text-white text-left">
-							<span className='block text-2xl mb-2 font-semibold'>
-								The Basics: How to install FileMaker
-							</span>
-							<p className='block'>
-								Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the...
-							</p>
-						</div>
+					{
+						blogs?.data?.map((blog, index) => (
+							<>
+							<Link href={`/blogs/${blog.fileName}/`}>
+								<div className="sm:flex items-center rounded-2xl hover:bg-white/10 cursor-pointer sm:border-0">
+									<img alt="XML Diff" loading="lazy" decoding="async" data-nimg="1" className="sm:mt-8 sm:ml-8 sm:mb-8 rounded-xl sm:h-auto sm:w-auto" src="/blog1.jpeg" style={{"color": "transparent"}}/>
+			
+									<div className="sm:p-8 mt-4 text-white text-left">
+										<span className='block text-2xl mb-2 font-semibold'>
+											{blog?.fileName}
+										</span>
+										<p className='sm:block hidden'>
+											Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the...
+										</p>
+									</div>
+								</div>
+							</Link>
+							<hr className='sm:hidden'/>
+							</>
+						))
+					}
 
-						<img alt="XML Diff" loading="lazy" width="300" height="300" decoding="async" data-nimg="1" className="mt-8 ml-8 mb-8 rounded-xl" src="/blog1.jpeg" style={{"color": "transparent"}}/>
-					</div>
-
-					<div className="flex flex-col-reverse lg:flex-row-reverse items-center rounded-2xl hover:bg-white/10 cursor-pointer" >
-						<div className="p-8 text-white text-left">
-							<span className='block text-2xl mb-2 font-semibold'>
-								Advanced: Setting up Web Viewer in FileMaker 
-							</span>
-							<p className='block'>
-								Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys
-							</p>
-						</div>
-
-						<img alt="XML Diff" loading="lazy" width="300" height="300" decoding="async" data-nimg="1" className="mt-8 ml-8 mb-8 rounded-xl" src="/blog2.png" style={{"color": "transparent"}}/>
-					</div>
-
-					<div className="flex flex-col-reverse lg:flex-row-reverse items-center rounded-2xl hover:bg-white/10 cursor-pointer" >
-						<div className="p-8 text-white text-left">
-							<span className='block text-2xl mb-2 font-semibold'>
-								Mastery: FileMaker, OData API and NextJs 
-							</span>
-							<p className='block'>
-								Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys text of the printing and typesetting
-							</p>
-						</div>
-
-						<img alt="XML Diff" loading="lazy" width="300" height="300" decoding="async" data-nimg="1" className="mt-8 ml-8 mb-8 rounded-xl" src="/blog3.jpeg" style={{"color": "transparent"}}/>
-					</div>
 				</div>
 			</div>
 
-			<div className="space-y-20 pb-10 w-[20%] pl-10">
-				<div className="mt-[100px] mb-[100px] space-y-8 sm:mx-auto sm:max-w-xl sm:space-y-4 lg:max-w-6xl">
+			<hr className='sm:hidden'/>
 
-					<div className="flex flex-col-reverse lg:flex-row-reverse items-center rounded-2xl" >
+			<div className="sm:space-y-20 sm:pb-10 sm:w-[30%] sm:pl-10 w-[70%] mx-auto sm:mx-0">
+				<div className="my-4 sm:mt-[100px] sm:mb-[100px] space-y-8 sm:mx-auto sm:max-w-xl sm:space-y-4 lg:max-w-6xl">
+
+					<div className="items-center rounded-2xl" >
 						<div className="text-white text-left">
 							<span className='block text-xl mb-2 font-semibold'>
 							<span className='underline cursor-pointer hover:font-bold'> Subscribe</span> to get latest articles

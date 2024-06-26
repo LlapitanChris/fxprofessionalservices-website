@@ -27,13 +27,13 @@ export function Navbar({ active }) {
             hideInDesktop: true,
             href: '/'
         },
+        // {
+        //     title: 'About',
+        //     hideInDesktop: false,
+        //     href: '/about'
+        // },
         {
-            title: 'About',
-            hideInDesktop: false,
-            href: '/about'
-        },
-        {
-            title: 'Team',
+            title: 'Our Team',
             hideInDesktop: false,
             href: '/team'
         },        
