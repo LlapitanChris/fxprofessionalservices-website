@@ -1,7 +1,7 @@
 /* eslint-disable @next/next/inline-script-id */
 "use client"
-import { Navbar } from './_components/NavBar'
-import { Footer } from './_components/Footer'
+import { NavBar } from '@/app/_components/NavBar'
+import { Footer } from '@/app/_components/Footer'
 import mermaid from 'mermaid'
 import { Fragment, useEffect, useRef, useState } from 'react'
 
@@ -52,7 +52,7 @@ console.log(blogPost)
 	<>
 		
     <main>
-        <Navbar active={'/blogs'}/>
+        <NavBar active={'/blogs'}/>
 
         <div className='mt-[200px] mb-[150px] rounded-bl-[3rem] w-[70%] mx-auto text-white prose prose-invert mermaid'>
 			<div ref={ref} dangerouslySetInnerHTML={{ __html: blogPost?.data?.contentHtml }} />

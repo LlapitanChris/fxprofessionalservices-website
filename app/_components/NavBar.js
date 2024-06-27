@@ -3,7 +3,7 @@ import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
 import Link from 'next/link';
 import { useEffect, useState } from 'react';
 
-export function Navbar({ active }) {
+export function NavBar({ active }) {
 
     const [isMobileOpen, setMobileOpen] = useState(false);
 	const [mainNav, setMainNav] = useState("bg-[#134e4a]")

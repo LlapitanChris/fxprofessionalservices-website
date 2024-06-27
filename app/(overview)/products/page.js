@@ -1,10 +1,11 @@
-import { Navbar } from './_components/NavBar'
-import { Footer } from './_components/Footer'
+import { NavBar } from '@/app/_components/NavBar'
+import { Footer } from '@/app/_components/Footer'
+
 export default function Products() {
 
   return (
     <main>
-        <Navbar active={'/products'}/>
+        <NavBar active={'/products'}/>
 
         <div className='md:mt-[150px] mt-[250px]  rounded-bl-[3rem] mx-auto'>
 

@@ -1,12 +1,12 @@
 "use client"
+import { NavBar } from '@/app/_components/NavBar'
+import { Footer } from '@/app/_components/Footer'
 
-import { Navbar } from './_components/NavBar'
-import { Footer } from './_components/Footer'
 export default function Products() {
 
   return (
     <main>
-        <Navbar active={'/products'}/>
+        <NavBar active={'/products'}/>
 			<div className="grid grid-cols-12 container mx-auto py-16 px-4 md:px-8 gap-8 mt-[200px] text-white">
 				<div className="col-span-12 md:col-span-8">
 					<section className="w-full relative">

@@ -1,6 +1,6 @@
 "use client"
-import { Navbar } from './_components/NavBar'
-import { Footer } from './_components/Footer'
+import { NavBar } from '@/app/_components/NavBar';
+import { Footer } from '@/app/_components/Footer';
 import { useEffect, useState } from 'react';
 import Link from 'next/link';
 
@@ -22,7 +22,7 @@ export default function Blogs() {
 
   return (
     <main>
-        <Navbar active={'/blogs'}/>
+        <NavBar active={'/blogs'}/>
 
         <div className='mt-[150px] rounded-bl-[3rem] block sm:flex'>
 
