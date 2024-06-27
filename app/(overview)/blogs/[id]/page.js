@@ -28,7 +28,7 @@ export default function Blog(blogPostFile, children) {
 		fetchData();
 	  }, []);
 
-	  console.log(ref.current)
+	//   console.log(ref.current)
 
 	  useEffect(() => {
 		const initializeMermaid = async () => {
@@ -38,7 +38,7 @@ export default function Blog(blogPostFile, children) {
 				querySelector: ".language-mermaid"
 			})
 			
-			console.log(mermaid)
+			// console.log(mermaid)
 			
 		}
 		// mermaid.contentLoaded()
@@ -46,7 +46,7 @@ export default function Blog(blogPostFile, children) {
 	  },[])
 
 
-console.log(blogPost)
+// console.log(blogPost)
 
   return (
 	<>
