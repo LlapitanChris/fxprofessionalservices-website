@@ -1,10 +1,11 @@
 import Link from 'next/link'
-import { Navbar } from './_components/NavBar'
 import { Footer } from './_components/Footer'
+import { NavBar } from './_components/NavBar'
+
 export default function Home() {
   return (
     <main>
-        <Navbar />
+        <NavBar />
 
         <div className='md:mt-[150px] mt-[150px] justify-center flex bg-gradient-to-br from-[#134e4a] to-[transparent] rounded-bl-[3rem]'>
             <div className='w-[100%] max-w-[1200px]'>
