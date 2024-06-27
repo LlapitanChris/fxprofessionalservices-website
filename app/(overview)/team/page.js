@@ -1,5 +1,5 @@
-import { Navbar } from './_components/NavBar'
-import { Footer } from './_components/Footer'
+import { NavBar } from '@/app/_components/NavBar'
+import { Footer } from '@/app/_components/Footer'
 import Image from 'next/image'
 import Link from 'next/link'
 export default function Team() {
@@ -71,7 +71,7 @@ export default function Team() {
 	]
   return (
     <main>
-        <Navbar active={'/team'}/>
+        <NavBar active={'/team'}/>
 
         <div className='md:mt-[150px] mt-[150px] justify-center flex bg-gradient-to-br from-[#134e4a] to-[transparent] rounded-bl-[3rem]'>
 			<section className="w-[100%] max-w-[1200px]">
