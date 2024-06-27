@@ -1,6 +1,6 @@
 import Link from 'next/link'
-import { Navbar } from './_components/navbar'
-import { Footer } from './_components/footer'
+import { Navbar } from './_components/NavBar'
+import { Footer } from './_components/Footer'
 export default function Home() {
   return (
     <main>

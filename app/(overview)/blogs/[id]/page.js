@@ -1,7 +1,7 @@
 /* eslint-disable @next/next/inline-script-id */
 "use client"
-import { Footer } from '@/app/_components/footer'
-import { Navbar } from '@/app/_components/navbar'
+import { Navbar } from './_components/NavBar'
+import { Footer } from './_components/Footer'
 import mermaid from 'mermaid'
 import { Fragment, useEffect, useRef, useState } from 'react'
 

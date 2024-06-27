@@ -1,5 +1,5 @@
-import { Footer } from '@/app/_components/footer'
-import { Navbar } from '@/app/_components/navbar'
+import { Navbar } from './_components/NavBar'
+import { Footer } from './_components/Footer'
 import Image from 'next/image'
 import Link from 'next/link'
 export default function Team() {
