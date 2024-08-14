@@ -16,13 +16,13 @@ export function Footer() {
 								</div>
 							</div>
 							<div>
-								<h1 className="text-2xl font-bold">Get the Latest Updates</h1>
-								<p className="text-lg">Subscribe to our weekly newsletter and articles.</p>
+								<h1 className="text-2xl font-bold">Got a question?</h1>
+								<p className="text-lg">Send us an email, and we&#39;ll be happy to help!</p>
 							</div>
 						</div>
 						<div className="mt-10 md:mt-0 h-[50px] md:h-auto">
-							<a target="_blank" className="bg-[#a7f3d0] text-center flex justify-center hover:bg-gray-300 text-black px-10 py-4 rounded-[200px] font-bold" href="###">
-								<span className="">Subscribe</span>
+							<a href="mailto:admin@fxprofessionalservices.com?subject=Inquiry%20Email&body=Good day%2C%0A%0AI%20would%20like%20to%20know%20more%20about%20your%20product.%20Thank%20you!" className="bg-[#a7f3d0] text-center flex justify-center hover:bg-gray-300 text-black px-10 py-4 rounded-[200px] font-bold">
+								<span className="">Email us</span>
 							</a>
 						</div>
 					</div>
@@ -61,8 +61,8 @@ export function Footer() {
                             </defs>
                         </svg> */}
                         <div>
-                            <p className='text-white mt-5 text-sm'>
-								2016 Greystem Circle, Apt 306 Gurnee, IL 60031
+                            <p className='text-white mt-5 text-md font-bold'>
+								FxProfessionalServices 2024
                             </p>
                         </div>
                     </div>

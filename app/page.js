@@ -46,8 +46,9 @@ export default function Home() {
         {/* About us */}
 
       <div className='mt-20 max-w-screen-lg mx-auto px-8 my-16 md:mb-24'>
-        <p className="text-white text-xl md:text-2xl leading-relaxed font-medium md:leading-[2.5rem]" style={{"opacity": "1; transform: translateY(0rem) translateZ(0px);"}}>
-          &nbsp;<span className="text-[#042f2e] font-semibold" style={{"word-spacing":"-6px;"}}>FX Professional Services </span>
+        <p className="text-white text-md md:text-2xl leading-relaxed font-medium md:leading-[2.5rem]" style={{"opacity": "1; transform: translateY(0rem) translateZ(0px);"}}>
+          &nbsp;
+          <span className="text-[#042f2e] font-semibold" style={{"word-spacing":"-6px;", "margin-right":"5px", "margin-left":"0px"}}>FX Professional Services </span>
           is a FileMaker development consultancy firm.
           &nbsp;<br/>A team of full time experts provides professional consultancy and application development services that enables businesses to effectively use these technologies to create new product offerings, increase their presence and respond to competitive threats by improving their user experience across multiple channels.
           <br/><br/>Rapid Development is one of the prime features of solutions development with FX Professional Services that helps you quickly implement solutions for your business needs.
@@ -81,8 +82,8 @@ export default function Home() {
               <h1 className="text-xl font-semibold text-center text-[#94D6DE]">
                 Why you shoud choose us?
               </h1>
-              <p className="text-xl text-center mb-16 text-white max-w-2xl mx-auto mt-4">
-                It`&apos;`s simple really; we see the need for specialized solutions and a need to differentiate ourselves from the crowd. In this competitive business environment, it`&apos;`s imperative that we offer more than just a generic solution. From initial design and prototyping to testing, programming, and integration, we can deliver customized solutions to our clients.
+              <p className="text-md sm:text-xl text-center mb-16 text-white max-w-2xl mx-auto mt-4">
+                It&apos;s simple really; we see the need for specialized solutions and a need to differentiate ourselves from the crowd. In this competitive business environment, it&apos;s imperative that we offer more than just a generic solution. From initial design and prototyping to testing, programming, and integration, we can deliver customized solutions to our clients.
               </p>
 
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3  gap-3 max-w-screen-xl mx-auto">
@@ -101,7 +102,7 @@ export default function Home() {
                   <h2 className="font-bold text-[#042f2e] my-4 text-lg">We meet deadlines</h2>
                 
                   <p className="text-md text-[#042f2e]">
-                    As your business grows, you`&apos;`ll encounter bumps along the road that make it harder to meet your goals. This can be a problem. If your business needs its solutions to be quick and robust enough to handle a wide variety of circumstances, We can provide solutions when you need it.
+                    As your business grows, you&apos;ll encounter bumps along the road that make it harder to meet your goals. This can be a problem. If your business needs its solutions to be quick and robust enough to handle a wide variety of circumstances, We can provide solutions when you need it.
                   </p>
 
                 </button>
@@ -130,7 +131,7 @@ export default function Home() {
                   
                   <h2 className="font-bold text-[#042f2e] my-4 text-lg">We Listen</h2>
                     
-                    <p className="text-md text-[#042f2e]">We just don`&apos;`≈t develop and build solutions. We make sure that all concerns are heard to make sure that what we provide is an application that would be almost perfect to handle all your business needs. We don`&apos;`t push ideas aside, we work with it.</p>
+                    <p className="text-md text-[#042f2e]">We just don&apos;t develop and build solutions. We make sure that all concerns are heard to make sure that what we provide is an application that would be almost perfect to handle all your business needs. We don&apos;t push ideas aside, we work with it.</p>
                 
                 </button>
                     
