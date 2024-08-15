@@ -1,5 +1,5 @@
-import { NavBar } from '@/app/_components/NavBar'
 import { Footer } from '@/app/_components/Footer'
+import { NavBar } from '@/app/_components/NavBar'
 import Image from 'next/image'
 import Link from 'next/link'
 export default function Team() {
@@ -7,9 +7,9 @@ export default function Team() {
 		{
 			name: "Kaz McLamore",
 			position: "Chief Executive Officer",
-			image: "/kaz.jpg",
+			image: "/kaz.jpeg",
 			slug: "kaz",
-			about: "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+			about: "Enthusiastic student of all things app development. Held senior FileMaker developer roles as an in-house developer and as a consultant with several firms before starting Fx Pros.",
 			linkedIn: "https://www.linkedin.com/in/kaz-mclamore-1aaab94a/"
 			},
 		{
