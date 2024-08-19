@@ -26,13 +26,13 @@ export default function Home() {
                                     Contact us
                                 </Link>
                             </div> 
-                            <div>
+                            {/* <div>
                                 <Link
                                     href={'/products'}
                                     className='py-5 px-10 rounded-[200px] border-solid border-[1.5px] border-[#4C9B98] hover:bg-[#448b88] text-white font-bold block'>
                                     Our Products
                                 </Link>
-                            </div>
+                            </div> */}
                         </div>
 
                     </div>
