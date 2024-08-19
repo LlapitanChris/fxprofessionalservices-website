@@ -13,11 +13,11 @@ export default function Team() {
 			linkedIn: "https://www.linkedin.com/in/kaz-mclamore-1aaab94a/"
 			},
 		{
-			name: "Jim De Jose",
+			name: "Jim Paul De Jose",
 			position: "Application Developer",
 			image: "/jim.png",
 			slug: "jim",
-			about: "Skilled FileMaker Developer at FX Pros, known for creating simple and efficient solutions. He joined FX Pros and passed the FileMaker Certification exam in 2021.",
+			about: "Skilled FileMaker Developer at FX Pros, known for creating simple and efficient solutions. He joined FX Pros and passed the FileMaker Certification exam in 2023.",
 			linkedIn: "https://www.linkedin.com/in/jimpauldejose/"
 		},
 		{
