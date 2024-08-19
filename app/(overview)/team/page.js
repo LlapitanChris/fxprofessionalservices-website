@@ -15,9 +15,9 @@ export default function Team() {
 		{
 			name: "Jim De Jose",
 			position: "Application Developer",
-			image: "/jim.jpg",
+			image: "/jim.png",
 			slug: "jim",
-			about: "A certified Claris FileMaker developer, brings 2+ years of hands-on experience and crafts practical database applications. With a focus on efficiency, my freelance journey offers freedom and continuous learning opportunities.",
+			about: "Skilled FileMaker Developer at FX Pros, known for creating simple and efficient solutions. He joined FX Pros and passed the FileMaker Certification exam in 2021.",
 			linkedIn: "https://www.linkedin.com/in/jimpauldejose/"
 		},
 		{
