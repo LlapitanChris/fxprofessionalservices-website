@@ -37,16 +37,16 @@ export function NavBar({ active }) {
             hideInDesktop: false,
             href: '/team'
         },        
-        // {
-        //     title: 'Products',
-        //     hideInDesktop: false,
-        //     href: '/products'
-        // },
-        // {
-        //     title: 'Blogs',
-        //     hideInDesktop: false,
-        //     href: '/blogs'
-        // },
+        {
+            title: 'Products',
+            hideInDesktop: false,
+            href: '/products'
+        },
+        {
+            title: 'Blogs',
+            hideInDesktop: false,
+            href: '/blogs'
+        },
 		{
             title: 'Contact us',
             hideInDesktop: false,

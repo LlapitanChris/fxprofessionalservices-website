@@ -84,7 +84,7 @@ export default function Team() {
 							developers.map((dev) => {
 								return(
 									<>
-									<a className="border-[#4C9B98] text-white p-4 pt-14 relative hover:bg-white/10 rounded-xl w-full mb-6 sm:mb-0 sm:w-[45%] lg:w-[30%] group flex flex-col items-center" href="#">
+									<a className="border-[#4C9B98] text-white p-4 pt-14 relative hover:bg-white/10 rounded-xl w-full mb-6 sm:mb-0 sm:w-[45%] lg:w-[30%] group flex flex-col items-center" href="#b   bbhbbnde645zw2u">
 										{
 											dev.image != null ? 
 											<>

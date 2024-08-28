@@ -18,7 +18,7 @@ export default function Blogs() {
 	  fetchData();
 	}, []);
   
-	// console.log(blogs)
+	console.log(blogs)
 
   return (
     <main>
