@@ -49,7 +49,7 @@ export default function Team() {
 			position: "Website Developer",
 			image: "/christine.jpg",
 			slug: "christine",
-			about: "Loves the Web and Internet of things. Also loves making a good cup of coffee.",
+			about: "Cat lover, Coffee enthusiast, and a Full Stack Web Developer. New hobby unlocked: sketching and baking pastries.",
 			linkedIn: "https://www.linkedin.com/in/chrisemantic-llapitan-2018/"
 		},
 		{

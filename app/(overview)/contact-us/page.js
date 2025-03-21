@@ -10,7 +10,7 @@ export default function Products() {
   return (
     <main>
         <NavBar active={'/contact-us'}/>
-			<div className="grid grid-cols-12 container mx-auto py-16 px-4 md:px-8 gap-8 mt-[200px] text-white">
+			<div className="grid grid-cols-12 container mx-auto py-16 px-4 md:px-8 gap-8 mt-[200px] text-white h-[63vh]">
 				<div className="col-span-12 md:col-span-8">
 					<section className="w-full relative">
 						<div className="bg-transparent relative z-10">
@@ -43,7 +43,7 @@ export default function Products() {
 									</div>
 									<a
 										href={`mailto:admin@fxprofessionalservices.com?subject=${subject}&body=${message}`}
-										className="rounded-full font-semibold transition-all whitespace-nowrap border items-center justify-center bg-tertiary text-dark px-4 py-2 md:px-8 text-lg hover:bg-foreground hover:text-background cursor-pointer"
+										className="rounded-full font-semibold transition-all whitespace-nowrap border items-center justify-center bg-tertiary text-dark px-12 py-4 text-lg hover:bg-white hover:text-dark cursor-pointer"
 									>
 										Submit
 									</a>

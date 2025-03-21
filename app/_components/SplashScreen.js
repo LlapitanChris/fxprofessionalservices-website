@@ -31,7 +31,7 @@ export function SplashScreen() {
                 ref={ref}
                 className='bg-[#115e59] fixed top-0 left-0 w-[100vw] h-[100vh] z-50 ease-out duration-150 flex items-center justify-center'>
                 <div>
-                    <Image src={'/logo.png'} width={'150'} height={'150'} />
+                    <Image src={'/FXProfessional_Logo_web.jpg'} width={'250'} height={'250'} />
                 </div>
             </main>
         </>

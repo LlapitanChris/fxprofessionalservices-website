@@ -42,11 +42,11 @@ export function NavBar({ active }) {
             hideInDesktop: false,
             href: '/products'
         },
-        {
-            title: 'Blogs',
-            hideInDesktop: false,
-            href: '/blogs'
-        },
+        // {
+        //     title: 'Blogs',
+        //     hideInDesktop: false,
+        //     href: '/blogs'
+        // },
 		{
             title: 'Contact us',
             hideInDesktop: false,
