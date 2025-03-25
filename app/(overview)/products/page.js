@@ -1,5 +1,6 @@
 import { Footer } from '@/app/_components/Footer'
 import { NavBar } from '@/app/_components/NavBar'
+import Link from 'next/link'
 
 export default function Products() {
 
@@ -26,9 +27,11 @@ export default function Products() {
 								Experience our tool
 								</Link>
 								</p> */}
-							<img alt="XML Diff" loading="lazy" width="400" height="400" decoding="async" data-nimg="1" className="rounded-xl cursor-pointer" src="/Yoink_FXProfessional_web.jpg" style={{"color": "transparent"}}/>
+							<Link href={`https://yoink-web-app-fxpro.vercel.app/`} target='_blank' className='hover:text-slate-800 hover:font-semibold'>
+								<img alt="XML Diff" loading="lazy" width="400" height="400" decoding="async" data-nimg="1" className="rounded-xl cursor-pointer" src="/Yoink_FXProfessional_web.jpg" style={{"color": "transparent"}}/>
+							</Link>
 							<span className='block text-center text-xl my-2 font-medium cursor-pointer'>
-								Yoink
+								<Link href={`https://yoink-web-app-fxpro.vercel.app/`} target='_blank' className='hover:text-slate-800 hover:font-semibold'> Yoink </Link>
 							</span>
 						</div>
 						<div className="p-8 text-white text-left">
@@ -40,8 +43,8 @@ export default function Products() {
 								Experience our tool
 								</Link>
 								</p> */}
-							<img alt="XML Diff" loading="lazy" width="400" height="400" decoding="async" data-nimg="1" className="rounded-xl cursor-pointer" src="/Horizon_FXProfessional_web.jpg" style={{"color": "transparent"}}/>
-							<span className='block text-center text-xl my-2 font-medium cursor-pointer'>
+							<img alt="XML Diff" loading="lazy" width="400" height="400" decoding="async" data-nimg="1" className="rounded-xl" src="/Horizon_FXProfessional_web.jpg" style={{"color": "transparent"}}/>
+							<span className='block text-center text-xl my-2 font-medium'>
 								Horizon
 							</span>
 						</div>
@@ -56,8 +59,8 @@ export default function Products() {
 								Experience our tool
 								</Link>
 								</p> */}
-							<img alt="XML Diff" loading="lazy" width="400" height="400" decoding="async" data-nimg="1" className="rounded-xl cursor-pointer" src="/In2Greater_FXProfessional_web.jpg" style={{"color": "transparent"}}/>
-							<span className='block text-center text-xl my-2 font-medium cursor-pointer'>
+							<img alt="XML Diff" loading="lazy" width="400" height="400" decoding="async" data-nimg="1" className="rounded-xl" src="/In2Greater_FXProfessional_web.jpg" style={{"color": "transparent"}}/>
+							<span className='block text-center text-xl my-2 font-medium'>
 								Integrater
 							</span>
 						</div>
@@ -70,8 +73,8 @@ export default function Products() {
 								Experience our tool
 								</Link>
 								</p> */}
-							<img alt="XML Diff" loading="lazy" width="400" height="400" decoding="async" data-nimg="1" className="rounded-xl cursor-pointer" src="/Pudding_FXProfessional_web.jpg" style={{"color": "transparent"}}/>
-							<span className='block text-center text-xl my-2 font-medium cursor-pointer'>
+							<img alt="XML Diff" loading="lazy" width="400" height="400" decoding="async" data-nimg="1" className="rounded-xl" src="/Pudding_FXProfessional_web.jpg" style={{"color": "transparent"}}/>
+							<span className='block text-center text-xl my-2 font-medium'>
 								Pudding
 							</span>
 						</div>
@@ -86,8 +89,8 @@ export default function Products() {
 								Experience our tool
 								</Link>
 								</p> */}
-							<img alt="XML Diff" loading="lazy" width="400" height="400" decoding="async" data-nimg="1" className="rounded-xl cursor-pointer" src="/NMBL_FXProfessional_web.jpg" style={{"color": "transparent"}}/>
-							<span className='block text-center text-xl my-2 font-medium cursor-pointer'>
+							<img alt="XML Diff" loading="lazy" width="400" height="400" decoding="async" data-nimg="1" className="rounded-xl" src="/NMBL_FXProfessional_web.jpg" style={{"color": "transparent"}}/>
+							<span className='block text-center text-xl my-2 font-medium'>
 								Nimble
 							</span>
 						</div>
@@ -100,8 +103,8 @@ export default function Products() {
 								Experience our tool
 								</Link>
 								</p> */}
-							<img alt="XML Diff" loading="lazy" width="400" height="400" decoding="async" data-nimg="1" className="rounded-xl cursor-pointer" src="/The_Framework_FXProfessional_web.jpg" style={{"color": "transparent"}}/>
-							<span className='block text-center text-xl my-2 font-medium cursor-pointer'>
+							<img alt="XML Diff" loading="lazy" width="400" height="400" decoding="async" data-nimg="1" className="rounded-xl" src="/The_Framework_FXProfessional_web.jpg" style={{"color": "transparent"}}/>
+							<span className='block text-center text-xl my-2 font-medium'>
 								Pudding
 							</span>
 						</div>
